@@ -19,3 +19,6 @@ $(OUTPUT): $(INPUT)
 
 clean:
 	rm -f $(OUTPUT)
+
+open: $(OUTPUT)
+	xdg-open $(OUTPUT)
