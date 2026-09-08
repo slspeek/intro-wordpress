@@ -33,3 +33,8 @@ Je beheert hier
 
 - inhoud
 - vormgeving
+
+## Inhoud
+
+- posts
+- pagina's
