@@ -31,10 +31,49 @@ header-includes:
 
 Je beheert hier
 
-- inhoud
-- vormgeving
+- Inhoud
+- Vormgeving
 
 ## Inhoud
 
-- posts
-- pagina's
+- Berichten
+- Pagina's
+
+## Berichten versus pagina's
+
+Berichten zijn dynamisch
+
+Pagina's zijn statisch
+
+## Berichten
+
+Eigenschappen van berichten:
+
+- Voeg je regelmatig toe
+- Vaak getoond met de laatste bovenaan
+- Kun je categorieën en tags aan toekennen
+
+Voorbeelden:
+
+- Blog
+- Nieuws
+- Recepten
+
+## Pagina's
+
+Eigenschappen van pagina's:
+
+- Tijdloos
+- Vast aantal
+
+Voorbeelden:
+
+- Start pagina
+- Over ons
+- Contact
+
+## Aanmaken van berichten en pagina's
+
+- In de admin balk op "+ Nieuw"  drukken
+- In het dashboard zij menu "Berichten" -> "Bericht toevoegen"
+- In het dashboard zij menu "Pagina's" -> "Pagina toevoegen"
