@@ -5,7 +5,11 @@ PANDOC_IMAGE ?= pandoc/latex:3.11-debian
 INPUT ?= intro-wordpress.md
 OUTPUT ?= intro-wordpress.pdf
 
-.PHONY: all pdf clean spellcheck
+.PHONY: all pdf clean spellcheck install_deps
+
+install_deps:
+	sudo apt update
+	sudo apt install -y aspell aspell-nl
 
 all: pdf
 

@@ -16,6 +16,9 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Install dependencies
+        run: make install_deps
+        
       - name: Build PDF
         run: make pdf
 
