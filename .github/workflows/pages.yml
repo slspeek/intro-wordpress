@@ -1,4 +1,4 @@
-name: Reavel.js presentation
+name: Reveal.js presentation
 
 on:
   push:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  release:
+  pages:
     runs-on: ubuntu-latest
 
     steps:
