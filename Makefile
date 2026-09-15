@@ -7,7 +7,7 @@ INPUT = intro-wordpress.md
 BUILD_DIR = build
 PDF_OUTPUT = $(BUILD_DIR)/intro-wordpress.pdf
 REVEALJS_DIR = $(BUILD_DIR)/revealjs
-REVEALJS_OUTPUT = $(REVEALJS_DIR)/intro-wordpress.html
+REVEALJS_OUTPUT = $(REVEALJS_DIR)/index.html
 
 .PHONY: all pdf revealjs clean spellcheck install_deps
 
