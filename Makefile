@@ -1,34 +1,62 @@
-SPELLCHECK_CMD=aspell check -t -p $(PWD)/aspell.ignore.list -l nl 
-SPELLCHECK_NON_INTERACTIVE_CMD=aspell list -t -p $(PWD)/aspell.ignore.list -l nl
+SPELLCHECK_CMD=aspell check --mode=markdown -p $(PWD)/aspell.ignore.list -l nl 
+SPELLCHECK_NON_INTERACTIVE_CMD=aspell list --mode=markdown -p $(PWD)/aspell.ignore.list -l nl
 
-PANDOC_IMAGE ?= pandoc/latex:3.11-debian
-INPUT ?= intro-wordpress.md
-OUTPUT ?= intro-wordpress.pdf
+PANDOC_IMAGE = pandoc/latex:3.11-debian
+DOCKER_USER = $(shell id -u):$(shell id -g)
+INPUT = intro-wordpress.md
+BUILD_DIR = build
+PDF_OUTPUT = $(BUILD_DIR)/intro-wordpress.pdf
+REVEALJS_DIR = $(BUILD_DIR)/revealjs
+REVEALJS_OUTPUT = $(REVEALJS_DIR)/intro-wordpress.html
 
-.PHONY: all pdf clean spellcheck install_deps
+.PHONY: all pdf revealjs clean spellcheck install_deps
+
+all: pdf revealjs
 
 install_deps:
 	sudo apt update
 	sudo apt install -y aspell aspell-nl
 
-all: pdf
 
-pdf: $(OUTPUT)
+pdf: $(PDF_OUTPUT)
 
-$(OUTPUT): $(INPUT) spellcheck-non-interactive
+$(PDF_OUTPUT): $(INPUT) spellcheck-non-interactive
 	docker run --rm \
+		--user "$(DOCKER_USER)" \
 		-v "$(CURDIR):/data" \
 		-w /data \
 		$(PANDOC_IMAGE) \
 		$(INPUT) \
 		-t beamer \
-		-o $(OUTPUT)
+		-V theme=Madrid \
+		-V date="\\today" \
+		-V lang=nl \
+		-V header-includes="\AtBeginDocument{\renewcommand{\sectionname}{Sectie}}" \
+		-o $(PDF_OUTPUT)
+
+revealjs: $(REVEALJS_OUTPUT)
+
+$(REVEALJS_OUTPUT): $(INPUT) spellcheck-non-interactive
+	mkdir -p $(REVEALJS_DIR)
+	cp -r images $(REVEALJS_DIR)
+	docker run --rm \
+		--user "$(DOCKER_USER)" \
+		-v "$(CURDIR):/data" \
+		-w /data \
+		$(PANDOC_IMAGE) \
+		$(INPUT) \
+		-t revealjs \
+		-s \
+		-o $(REVEALJS_OUTPUT)
 
 clean:
-	rm -f $(OUTPUT)
+	rm -rf $(BUILD_DIR)
 
-open: $(OUTPUT)
-	xdg-open $(OUTPUT)
+openpdf: $(PDF_OUTPUT)
+	xdg-open $(PDF_OUTPUT)
+
+openhtml: $(REVEALJS_OUTPUT)
+	xdg-open $(REVEALJS_OUTPUT)
 
 spellcheck:
 	$(SPELLCHECK_CMD) $(INPUT)
