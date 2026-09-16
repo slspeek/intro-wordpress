@@ -45,6 +45,8 @@ $(REVEALJS_OUTPUT): $(INPUT) spellcheck-non-interactive
 		-w /data \
 		$(PANDOC_IMAGE) \
 		$(INPUT) \
+		--slide-level=2 \
+		-V revealjs-url=https://cdn.jsdelivr.net/npm/reveal.js@5 \
 		-t revealjs \
 		-s \
 		-o $(REVEALJS_OUTPUT)
