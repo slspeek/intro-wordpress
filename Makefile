@@ -28,6 +28,7 @@ $(PDF_OUTPUT): $(INPUT) spellcheck-non-interactive
 		$(PANDOC_IMAGE) \
 		$(INPUT) \
 		-t beamer \
+		--slide-level=2 \
 		-V theme=Madrid \
 		-V date="\\today" \
 		-V lang=nl \
