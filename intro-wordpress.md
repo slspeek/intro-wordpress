@@ -19,13 +19,56 @@ author: "Steven Speek"
 - WordPress is een open source contentmanagementsysteem.
 - Het wordt gebruikt voor websites, blogs, webwinkels en meer.
 - Inhoud en vormgeving worden afzonderlijk beheerd.
-- Via [DirectAdmin](https://docs.directadmin.com/) beheer je jouw WordPress installatie
+<!-- - Via [DirectAdmin](https://docs.directadmin.com/) beheer je jouw WordPress installatie -->
 
 # Overzicht WordPress beheer
+
+- Hoe bereik je het beheer
+- Installatie
+- Back-up
+- Verwijdering
+
+# Naar het beheer
+
+Ga met je browser naar
+
+`<mijn naam>.designcodelab.org:2222/`
+
+## Inloggen
+
+![Inlogscherm van DirectAdmin](images/inlogscherm-directadmin.png)
 
 ## DirectAdmin homepage
 
 ![Homepage van DirectAdmin](images/directadmin-home.png)
+
+## Verder naar Evolution
+
+Klik op
+
+![Evolution logo](images/evolution-logo.png)
+
+## Evolution scherm
+
+![Homepage van Evolution](images/evolution-homepage.png)
+
+## Naar de WordPress Manager
+
+Type `CTRL+J`
+
+En type `Wordpress`
+
+![](images/zoeken-naar-wordpress.png)
+
+Druk op `ENTER`
+
+## WordPress Manager
+
+![Homepage van de WordPress Manager](images/wordpress-manager.png)
+
+## Bewaar dit adres
+ 
+Maak hier een bladwijzer van met `CTRL+D`
 
 # Rondleiding door WordPress
 
@@ -49,13 +92,13 @@ Pages zijn statisch
 
 ## Posts
 
-Eigenschappen van posts:
+### Eigenschappen:
 
 - Voeg je regelmatig toe
 - Vaak getoond met de laatste bovenaan
 - Kun je categorieën en tags aan toekennen
 
-Voorbeelden:
+### Voorbeelden:
 
 - Blog
 - Nieuws
@@ -63,12 +106,12 @@ Voorbeelden:
 
 ## Pages
 
-Eigenschappen van pages:
+### Eigenschappen:
 
 - Tijdloos
 - Vast aantal
 
-Voorbeelden:
+### Voorbeelden:
 
 - Start pagina
 - Over ons
