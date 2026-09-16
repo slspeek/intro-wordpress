@@ -25,5 +25,5 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: intro-wordpress.pdf
+          files: ./build/intro-wordpress.pdf
           generate_release_notes: true
