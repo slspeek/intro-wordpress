@@ -8,8 +8,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^5/dist/reset.css">
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^5/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
   <style>
     .reveal .sourceCode {  /* see #7635 */
       overflow: visible;
@@ -35,7 +35,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^5/dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css" id="theme">
 </head>
 <body>
   <div class="reveal">
@@ -70,16 +70,34 @@
 <ul>
 <li>WordPress is een open source contentmanagementsysteem.</li>
 <li>Het wordt gebruikt voor websites, blogs, webwinkels en meer.</li>
-<li>Inhoud en vormgeving worden afzonderlijk beheerd.</li>
-<li>Via <a href="https://docs.directadmin.com/">DirectAdmin</a> beheer
-je jouw WordPress installatie</li>
+<li>Inhoud en vormgeving worden afzonderlijk beheerd.
+<!-- - Via [DirectAdmin](https://docs.directadmin.com/) beheer je jouw WordPress installatie --></li>
 </ul>
 </section></section>
-<section>
 <section id="overzicht-wordpress-beheer"
 class="title-slide slide level1">
 <h1>Overzicht WordPress beheer</h1>
+<ul>
+<li>Hoe bereik je het beheer</li>
+<li>Installatie</li>
+<li>Back-up</li>
+<li>Verwijdering</li>
+</ul>
+</section>
 
+<section>
+<section id="naar-het-beheer" class="title-slide slide level1">
+<h1>Naar het beheer</h1>
+<p>Ga met je browser naar</p>
+<p><code>&lt;mijn naam&gt;.designcodelab.org:2222/</code></p>
+</section>
+<section id="inloggen" class="slide level2">
+<h2>Inloggen</h2>
+<figure>
+<img data-src="images/inlogscherm-directadmin.png"
+alt="Inlogscherm van DirectAdmin" />
+<figcaption aria-hidden="true">Inlogscherm van DirectAdmin</figcaption>
+</figure>
 </section>
 <section id="directadmin-homepage" class="slide level2">
 <h2>DirectAdmin homepage</h2>
@@ -88,6 +106,42 @@ class="title-slide slide level1">
 alt="Homepage van DirectAdmin" />
 <figcaption aria-hidden="true">Homepage van DirectAdmin</figcaption>
 </figure>
+</section>
+<section id="verder-naar-evolution" class="slide level2">
+<h2>Verder naar Evolution</h2>
+<p>Klik op</p>
+<figure>
+<img data-src="images/evolution-logo.png" alt="Evolution logo" />
+<figcaption aria-hidden="true">Evolution logo</figcaption>
+</figure>
+</section>
+<section id="evolution-scherm" class="slide level2">
+<h2>Evolution scherm</h2>
+<figure>
+<img data-src="images/evolution-homepage.png"
+alt="Homepage van Evolution" />
+<figcaption aria-hidden="true">Homepage van Evolution</figcaption>
+</figure>
+</section>
+<section id="naar-de-wordpress-manager" class="slide level2">
+<h2>Naar de WordPress Manager</h2>
+<p>Type <code>CTRL+J</code></p>
+<p>En type <code>Wordpress</code></p>
+<p><img data-src="images/zoeken-naar-wordpress.png" /></p>
+<p>Druk op <code>ENTER</code></p>
+</section>
+<section id="wordpress-manager" class="slide level2">
+<h2>WordPress Manager</h2>
+<figure>
+<img data-src="images/wordpress-manager.png"
+alt="Homepage van de WordPress Manager" />
+<figcaption aria-hidden="true">Homepage van de WordPress
+Manager</figcaption>
+</figure>
+</section>
+<section id="bewaar-dit-adres" class="slide level2">
+<h2>Bewaar dit adres</h2>
+<p>Maak hier een bladwijzer van met <code>CTRL+D</code></p>
 </section></section>
 <section>
 <section id="rondleiding-door-wordpress"
@@ -117,13 +171,13 @@ class="title-slide slide level1">
 </section>
 <section id="posts" class="slide level2">
 <h2>Posts</h2>
-<p>Eigenschappen van posts:</p>
+<h3 id="eigenschappen">Eigenschappen:</h3>
 <ul>
 <li>Voeg je regelmatig toe</li>
 <li>Vaak getoond met de laatste bovenaan</li>
 <li>Kun je categorieën en tags aan toekennen</li>
 </ul>
-<p>Voorbeelden:</p>
+<h3 id="voorbeelden">Voorbeelden:</h3>
 <ul>
 <li>Blog</li>
 <li>Nieuws</li>
@@ -132,12 +186,12 @@ class="title-slide slide level1">
 </section>
 <section id="pages" class="slide level2">
 <h2>Pages</h2>
-<p>Eigenschappen van pages:</p>
+<h3 id="eigenschappen-1">Eigenschappen:</h3>
 <ul>
 <li>Tijdloos</li>
 <li>Vast aantal</li>
 </ul>
-<p>Voorbeelden:</p>
+<h3 id="voorbeelden-1">Voorbeelden:</h3>
 <ul>
 <li>Start pagina</li>
 <li>Over ons</li>
@@ -155,12 +209,12 @@ class="title-slide slide level1">
     </div>
   </div>
 
-  <script src="https://unpkg.com/reveal.js@^5/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
 
   <!-- reveal.js plugins -->
-  <script src="https://unpkg.com/reveal.js@^5/plugin/notes/notes.js"></script>
-  <script src="https://unpkg.com/reveal.js@^5/plugin/search/search.js"></script>
-  <script src="https://unpkg.com/reveal.js@^5/plugin/zoom/zoom.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/search/search.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/zoom/zoom.js"></script>
 
   <script>
 
