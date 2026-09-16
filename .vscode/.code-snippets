@@ -1,0 +1,9 @@
+{
+  "WordPress": {
+    "scope": "md",
+    "prefix": "wp",
+    "body": [
+      "WordPress"
+    ],
+  }
+}
