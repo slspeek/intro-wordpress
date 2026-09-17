@@ -70,6 +70,30 @@ Druk op `ENTER`
  
 Maak hier een bladwijzer van met `CTRL+D`
 
+# SSL-certificaat maken
+
+Om WordPress veilig te kunnen draaien heb je een SSL-certificaat nodig
+
+## Ga naar DirectAdmin
+
+`<mijn naam>.designcodelab.org:2222/`
+
+## DirectAdmin homepage
+
+![Homepage van DirectAdmin](images/directadmin-home.png)
+
+## Ga naar SSL-Certificates
+
+Klik op `SSL-Certificates` onder `Advanced Features`
+
+## SSL-Certificates
+
+![SSL-Certificates](images/SSL-certificaat-maken.png)
+
+## SSL-Certificates gelukt
+
+![SSL-Certificates succes](images/SLL-certificaat-succes.png)
+
 # Rondleiding door WordPress
 
 ## Dashboard
