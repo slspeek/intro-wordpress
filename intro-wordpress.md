@@ -3,11 +3,15 @@ title: "Introductie tot WordPress"
 author: "Steven Speek"
 ---
 
-# Inleiding
+# Leerdoelen
 
-## Welkom
+- Een eigen domein opzetten
+- [WordPress beginners cursus](https://learn.wordpress.org/course/beginner-wordpress-user/) kunnen volgen
+- Iets op te zoeken met [Gemini AI](https://gemini.google.com/)
 
-- Wat is WordPress?
+# WordPress
+
+- Wat is [WordPress](https://wordpress.org)?
 - Wat kun je ermee bouwen?
 - Hoe werk je met WordPress?
 - Hoe beheer je WordPress?
@@ -24,6 +28,7 @@ author: "Steven Speek"
 # Overzicht WordPress beheer
 
 - Hoe bereik je het beheer
+- SSL-certificaat maken
 - Installatie
 - Back-up
 - Verwijdering
@@ -93,6 +98,41 @@ Klik op `SSL-Certificates` onder `Advanced Features`
 ## SSL-Certificates gelukt
 
 ![SSL-Certificates succes](images/SLL-certificaat-succes.png)
+
+# Installeren van WordPress 
+
+Ga naar [WordPress Manager](#naar-het-beheer) via je bladwijzer
+
+## WordPress Manager
+
+![Homepage van de WordPress Manager](images/wordpress-manager.png)
+
+## Start installatie
+
+Nadat je op `Install` hebt geklikt zie je
+![Installatie details](images/install-wordpress-bovenkant.png)
+
+## Admin Account
+
+Vul als `Admin Username` iets anders dan `admin` in.
+Klik op het sleuteltje om een wachtwoord te genereren
+![Admin Account Details](images/installatie-wordpress-admin-account.png)
+
+## Installeren
+
+Nadat je de `Admin Account` gegevens hebt overgenomen,
+druk je ondereen op `Install`
+![Installatie pagina](images/installatie-wordpress-onderkant.png)
+
+## Nieuwe site
+Als de link naar je nieuwe site hebt geklikt zie je
+![Nieuwe site](images/vanilla-wp-site.png)
+
+## Voortgang
+![Installatie voortgang](images/installatie-wordpress-voortgang.png)
+
+## Installatie voltooid
+![Installatie voltooid](images/installatie-wordpress-voltooid.png)
 
 # Rondleiding door WordPress
 
