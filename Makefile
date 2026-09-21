@@ -39,7 +39,7 @@ revealjs: $(REVEALJS_OUTPUT)
 
 $(REVEALJS_OUTPUT): $(INPUT) spellcheck-non-interactive
 	mkdir -p $(REVEALJS_DIR)
-	cp -r images $(REVEALJS_DIR)
+	cp -r images custom.css $(REVEALJS_DIR)
 	docker run --rm \
 		--user "$(DOCKER_USER)" \
 		-v "$(CURDIR):/data" \
@@ -49,6 +49,7 @@ $(REVEALJS_OUTPUT): $(INPUT) spellcheck-non-interactive
 		--slide-level=2 \
 		-V revealjs-url=https://cdn.jsdelivr.net/npm/reveal.js@5 \
 		-t revealjs \
+		-c custom.css \
 		-s \
 		-o $(REVEALJS_OUTPUT)
 
