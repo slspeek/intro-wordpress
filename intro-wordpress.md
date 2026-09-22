@@ -9,27 +9,74 @@ author: "Steven Speek"
 - [WordPress beginners cursus](https://learn.wordpress.org/course/beginner-wordpress-user/) kunnen volgen
 - Iets op te zoeken met [Gemini AI](https://gemini.google.com/)
 
-# WordPress
+# Praktisch
+
+- Bladwijzers en wachtwoorden sla je op in je Google account, door je aan te melden
+in Google Chrome
+
+- Om je AI-zoekopdrachten bewaar je door Gemini ingelogd te gebruiken
+
+## Oefening
+
+1. Meld je aan in [Gemini AI](https://gemini.google.com).
+
+1. Vraag `Hoe meld ik mij aan in Google Chrome`
+
+1. Voer de instructies uit
+
+## Deze presentatie
+
+![slspeek.github.io/intro-wordpress](images/qr-presentatie.png)
+
+## Oefening
+
+Maak een bladwijzer van de [presentatie van de cursus](https://slspeek.github.io/intro-wordpress)
+
+`https://slspeek.github.io/intro-wordpress`
+
+## Oefening
+
+Maak een bladwijzer van [Gemini AI](https://gemini.google.com).
+
+`https://gemini.google.com`
+
+## Oefening
+
+1. Sluit je browser (`ALT+F4`)
+1. Open je Google Chrome opnieuw en overtuig jezelf ervan dat je twee bladwijzers er nog zijn
+1. Ga naar Gemini via je bladwijzer
+1. Vraag `Hoe maak ik een mapje "cursus" op de bladwijzerbalk in Google Chrome`
+1. Voer de instructies uit
+1. Verplaats de bladwijzers naar dat mapje
+
+# Wat is WordPress?
 
 - Wat is [WordPress](https://wordpress.org)?
 - Wat kun je ermee bouwen?
-- Hoe werk je met WordPress?
-- Hoe beheer je WordPress?
 
-# De basis van WordPress
-
-## Wat is WordPress?
+## WordPress 
 
 - WordPress is een open source contentmanagementsysteem.
 - Het wordt gebruikt voor websites, blogs, webwinkels en meer.
 - Inhoud en vormgeving worden afzonderlijk beheerd.
 <!-- - Via [DirectAdmin](https://docs.directadmin.com/) beheer je jouw WordPress installatie -->
 
-# Overzicht WordPress beheer
+## Oefening 
+
+Schrijf je in op [learn.wordpress.org](https://login.wordpress.org/register)
+
+## Oefening
+
+Volg de eerste les `Introduction to WordPress` van [Beginner WordPress User](https://learn.wordpress.org/course/beginner-wordpress-user/)
+
+# Overzicht beheer
 
 - Hoe bereik je het beheer
 - SSL-certificaat maken
 - Installatie
+
+Later in de cursus:
+
 - Back-up
 - Verwijdering
 
