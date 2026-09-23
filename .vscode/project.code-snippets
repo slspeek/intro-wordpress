@@ -1,0 +1,16 @@
+{
+  "WordPress": {
+    "scope": "markdown",
+    "prefix": "wp",
+    "body": [
+      "WordPress"
+    ]
+  },
+  "Gemini": {
+    "scope": "markdown",
+    "prefix": "gem",
+    "body": [
+      "[Gemini AI](https://gemini.google.com)"
+    ]
+  }
+}
