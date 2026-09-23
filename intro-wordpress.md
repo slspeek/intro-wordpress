@@ -16,11 +16,13 @@ in Google Chrome
 
 - Om je AI-zoekopdrachten bewaar je door Gemini ingelogd te gebruiken
 
+# Gemini AI
+
 ## Oefening
 
 1. Meld je aan in [Gemini AI](https://gemini.google.com).
 
-1. Vraag `Hoe meld ik mij aan in Google Chrome`
+1. Vraag: `Hoe meld ik mij aan in Google Chrome`
 
 1. Voer de instructies uit
 
@@ -45,9 +47,18 @@ Maak een bladwijzer van [Gemini AI](https://gemini.google.com).
 1. Sluit je browser (`ALT+F4`)
 1. Open je Google Chrome opnieuw en overtuig jezelf ervan dat je twee bladwijzers er nog zijn
 1. Ga naar Gemini via je bladwijzer
-1. Vraag `Hoe maak ik een mapje "cursus" op de bladwijzerbalk in Google Chrome`
+1. Vraag: `Hoe maak ik een mapje "cursus" op de bladwijzerbalk in Google Chrome`
 1. Voer de instructies uit
 1. Verplaats de bladwijzers naar dat mapje
+
+## Oefening
+
+1. Ga naar [Gemini AI](https://gemini.google.com)
+1. Maak een nieuw `Notebook` aan onder de naam `WordPress cursus`
+1. Voeg aan de bronnen:
+    - `https://learn.wordpress.org` onder `Websites toevoegen` toe
+    - `WordPress` onder `Gekopiëerde tekst` toe
+1. Stel nu in dit notebook de vraag: `wat is het verschil tussen een post en een page`
 
 # Wat is WordPress?
 
