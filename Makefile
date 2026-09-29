@@ -1,3 +1,4 @@
+INPUT = public/slides.md
 SPELLCHECK_CMD=aspell check --mode=markdown -p $(PWD)/aspell.ignore.list -l nl 
 SPELLCHECK_NON_INTERACTIVE_CMD=aspell list --mode=markdown -p $(PWD)/aspell.ignore.list -l nl
 
