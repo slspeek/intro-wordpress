@@ -63,16 +63,16 @@ https://gemini.google.com
 
 ## Oefening
 
-1. Sluit je browser (`ALT+F4`)
-1. Open je Google Chrome opnieuw en overtuig jezelf ervan dat je twee bladwijzers er nog zijn
-1. Ga naar Gemini via je bladwijzer
-1. Vraag:
+- Sluit je browser (`ALT+F4`)
+- Open je Google Chrome opnieuw en overtuig jezelf ervan dat je twee bladwijzers er nog zijn
+- Ga naar Gemini via je bladwijzer
+- Vraag:
 ```
 Hoe maak ik een mapje "cursus" op
 de bladwijzerbalk in Google Chrome
 ```
-1. Voer de instructies uit
-1. Verplaats de bladwijzers naar dat mapje
+- Voer de instructies uit
+- Verplaats de bladwijzers naar dat mapje
 
 ----
 
@@ -100,19 +100,17 @@ een post en een page
 
 ---
 
-# Wat is WordPress?
+# Wat is [WordPress](https://wordpress.org)?
 
-- Wat is [WordPress](https://wordpress.org)?
 - Wat kun je ermee bouwen?
 
 ----
 
 ## WordPress 
 
-- WordPress is een open source contentmanagementsysteem.
-- Het wordt gebruikt voor websites, blogs, webwinkels en meer.
-- Inhoud en vormgeving worden afzonderlijk beheerd.
-<!-- - Via [DirectAdmin](https://docs.directadmin.com/) beheer je jouw WordPress installatie -->
+- WordPress is een open source contentmanagementsysteem
+- Het wordt gebruikt voor websites, blogs, webwinkels en meer
+- Inhoud en vormgeving worden afzonderlijk beheerd
 
 ----
 
@@ -177,11 +175,9 @@ Klik op
 
 ----
 
-## Naar de WordPress Manager
+## Naar WordPress Manager
 
-Type `CTRL+J`
-
-En type `Wordpress`
+Type `CTRL+J`, en type `Wordpress`
 
 ![](images/zoeken-naar-wordpress.png)
 

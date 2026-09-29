@@ -23,7 +23,12 @@ body {
 .reveal h1,
 .reveal h2,
 .reveal h3 {
-  margin-bottom: 0.5em;
+  /* margin-bottom: 0.5em; */
+  /* margin-top:0%; */
+}
+
+.reveal h1 {
+  font-size: 230%;
 }
 
 .reveal p,
