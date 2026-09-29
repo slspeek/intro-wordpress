@@ -1,0 +1,54 @@
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: #111827;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+.reveal {
+  width: 100%;
+  height: 100%;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  margin-bottom: 0.5em;
+}
+
+.reveal p,
+.reveal li {
+  /* font-size: 1.3rem;q */
+  line-height: 1.2;
+}
+
+.reveal code {
+  font-size: 1.0em;
+  color: darkblue;
+} 
+
+.reveal pre code {
+  font-size: 1.5em;
+  line-height: 1.7;
+} 
+
+.reveal section img {
+  /* max-height: 300px; */
+}
+
+@media (max-width: 768px) {
+  .reveal p,
+  .reveal li {
+    font-size: 1.1rem;
+  }
+}
