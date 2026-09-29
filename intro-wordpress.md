@@ -78,7 +78,9 @@ Schrijf je in op [learn.wordpress.org](https://login.wordpress.org/register)
 
 ## Oefening
 
-Volg de eerste les `Introduction to WordPress` van [Beginner WordPress User](https://learn.wordpress.org/course/beginner-wordpress-user/)
+1. Ga naar [Beginner WordPress User](https://learn.wordpress.org/course/beginner-wordpress-user/)
+1. Maak daar een bladwijzer van in het "cursus" mapje
+1. Volg de eerste les `Introduction to WordPress`
 
 # Overzicht beheer
 
