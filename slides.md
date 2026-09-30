@@ -63,7 +63,7 @@ https://gemini.google.com
 
 ## Oefening
 
-- Sluit je browser (`ALT+F4`)
+- Sluit je browser met <kbd><kbd>Alt</kbd>+<kbd>F4</kbd></kbd> 
 - Open je Google Chrome opnieuw en overtuig jezelf ervan dat je twee bladwijzers er nog zijn
 - Ga naar Gemini via je bladwijzer
 - Vraag:
@@ -177,7 +177,7 @@ Klik op
 
 ## Naar WordPress Manager
 
-Type `CTRL+J`, en type `Wordpress`
+Druk op <kbd><kbd>Ctrl</kbd>+<kbd>J</kbd></kbd>, en type `Wordpress`
 
 ![](images/zoeken-naar-wordpress.png)
 
@@ -192,8 +192,8 @@ Druk op `ENTER`
 ----
 
 ## Bewaar dit adres
- 
-Maak hier een bladwijzer van met `CTRL+D`, deel de bladwijzer in het mapje cursus
+
+Maak hier een bladwijzer van met <kbd><kbd>Ctrl</kbd>+<kbd>D</kbd></kbd>, deel de bladwijzer in het mapje cursus
 
 ---
 
