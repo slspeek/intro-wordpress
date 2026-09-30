@@ -26,12 +26,33 @@ in Google Chrome
 
 ## Oefening
 
-- Meld je aan in [Gemini AI](https://gemini.google.com).
+- Open Google Chrome: Druk <kbd><kbd><svg class="win-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88" width="11" height="11"><path d="M0 12.402l35.687-4.86.016 34.423-35.67.203zm35.67 33.529l.028 34.453L.028 75.48.026 45.7zm4.326-39.025L87.314 0v41.527l-47.318.376zm47.329 39.349l-.011 41.34-47.318-6.678-.066-34.739z" fill="currentColor"/></svg></kbd></kbd> in en laat weer los, type `chro` en druk <kbd><kbd>Enter</kbd></kbd>
+- Ga naar [Gemini AI](https://gemini.google.com)
+    - <kbd><kbd>Ctrl</kbd>+<kbd>L</kbd></kbd>
+    - type `gemini.google.com`
+
+---
+
+## Oefening
+
+- Meld je aan in [Gemini AI](https://gemini.google.com)
 - Vraag:
 ```
 Hoe meld ik mij aan in Google Chrome
 ```
 - Voer de instructies uit
+
+<!-- ----
+
+## Oefening
+
+- Vraag aan [Gemini AI](https://gemini.google.com)
+```
+Hoe zorg ik ervoor dat ik Google Chrome
+kan openen met WIN+1 onder MS Windows
+```
+- Voer de instructies uit
+- Test of <kbd><kbd><svg class="win-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88" width="11" height="11"><path d="M0 12.402l35.687-4.86.016 34.423-35.67.203zm35.67 33.529l.028 34.453L.028 75.48.026 45.7zm4.326-39.025L87.314 0v41.527l-47.318.376zm47.329 39.349l-.011 41.34-47.318-6.678-.066-34.739z" fill="currentColor"/></svg></kbd>+<kbd>1</kbd></kbd> Google Chrome opent -->
 
 ----
 
@@ -63,8 +84,6 @@ https://gemini.google.com
 
 ## Oefening
 
-- Sluit je browser met <kbd><kbd>Alt</kbd>+<kbd>F4</kbd></kbd> 
-- Open je Google Chrome opnieuw en overtuig jezelf ervan dat je twee bladwijzers er nog zijn
 - Ga naar Gemini via je bladwijzer
 - Vraag:
 ```
