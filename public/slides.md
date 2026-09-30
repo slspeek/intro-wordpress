@@ -31,7 +31,7 @@ in Google Chrome
     - <kbd><kbd>Ctrl</kbd>+<kbd>L</kbd></kbd>
     - type `gemini.google.com`
 
----
+----
 
 ## Oefening
 
@@ -60,15 +60,20 @@ kan openen met WIN+1 onder MS Windows
 
 ![slspeek.github.io/intro-wordpress](images/qr-presentatie.png)
 
+`slspeek.github.io/intro-wordpress`
+
 ----
 
 ## Oefening
 
-Maak een bladwijzer van de [presentatie van de cursus](https://slspeek.github.io/intro-wordpress)
+Maak een bladwijzer van de cursus
+- In Google Crome druk je <kbd><kbd>Ctrl</kbd>+<kbd>L</kbd></kbd>
+- Type 
 
-```
-https://slspeek.github.io/intro-wordpress
-```
+`slspeek.github.io/intro-wordpress`
+
+ en <kbd><kbd>Enter</kbd></kbd>
+- Druk <kbd><kbd>Ctrl</kbd>+<kbd>D</kbd></kbd>
 
 ----
 
@@ -301,6 +306,12 @@ druk je ondereen op `Install`
 ## Nieuwe site
 Als de link naar je nieuwe site hebt geklikt zie je
 ![Nieuwe site](images/vanilla-wp-site.png)
+
+----
+
+## Oefening
+
+Bekijk de videoles [WordPress essentials: Domains and hosting](https://learn.wordpress.org/lesson/wordpress-essentials-domains-and-hosting/)
 
 ---
 
