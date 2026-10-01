@@ -67,7 +67,7 @@ kan openen met WIN+1 onder MS Windows
 ## Oefening
 
 Maak een bladwijzer van de cursus
-- In Google Crome druk je <kbd><kbd>Ctrl</kbd>+<kbd>L</kbd></kbd>
+- In Google Chrome druk je <kbd><kbd>Ctrl</kbd>+<kbd>L</kbd></kbd>
 - Type 
 
 `slspeek.github.io/intro-wordpress`
@@ -110,7 +110,7 @@ https://learn.wordpress.org
 ```
 onder `Websites toevoegen` toe
 
-`WordPress` onder `Gekopiëerde tekst` toe
+`WordPress` onder `Gekopieerde tekst` toe
 
 ----
 
@@ -255,6 +255,16 @@ Klik op `SSL-Certificates` onder `Advanced Features`
 
 ![SSL-Certificates succes](images/SLL-certificaat-succes.png)
 
+----
+
+## Oefening
+
+Vraag in je `Wordpress cursus` notebook in [Gemini AI](https://gemini.google.com)
+```
+Waarom heb ik een SSL-certificaat
+nodig voor mijn site
+```
+
 ---
 
 # Installeren van WordPress 
@@ -311,7 +321,54 @@ Als de link naar je nieuwe site hebt geklikt zie je
 
 ## Oefening
 
-Bekijk de videoles [WordPress essentials: Domains and hosting](https://learn.wordpress.org/lesson/wordpress-essentials-domains-and-hosting/)
+Bekijk de videoles
+
+[WordPress essentials: Domains and hosting](https://learn.wordpress.org/lesson/wordpress-essentials-domains-and-hosting/)
+
+----
+
+## Oefening
+
+Voer bestaand installatie procedé uit
+
+---
+
+# Themes
+
+Hiermee bepaal je de opmaak van je site
+
+----
+
+## Soorten themes
+
+1. [Block themes](https://wordpress.org/documentation/article/block-themes/)
+2. Klassieke themes
+
+----
+
+## Oefening
+
+Vraag aan je `Wordpress cursus` notebook in [Gemini AI](https://gemini.google.com)
+```
+waarom is het beter om een
+block theme te gebruiken
+```
+
+----
+
+## Oefening
+
+Bekijk de videoles
+
+[Choosing and installing a theme](https://learn.wordpress.org/lesson/choosing-and-installing-a-theme/)
+
+----
+
+## Oefening
+
+Zet het theme van jouw site op 
+
+[Twenty Twenty-four](https://wordpress.org/themes/twentytwentyfour/)
 
 ---
 
