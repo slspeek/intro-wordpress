@@ -217,7 +217,8 @@ Druk op `ENTER`
 
 ## Bewaar dit adres
 
-Maak hier een bladwijzer van met <kbd><kbd>Ctrl</kbd>+<kbd>D</kbd></kbd>, deel de bladwijzer in het mapje cursus
+Maak hier een bladwijzer van met <kbd><kbd>Ctrl</kbd>+<kbd>D</kbd></kbd>, deel de bladwijzer in het mapje cursus,
+nadat je het de naam `WordPress manager` hebt gegeven
 
 ---
 
@@ -333,6 +334,14 @@ Voer bestaand installatie procedé uit
 
 ---
 
+# Inloggen op je Dashboard
+
+- Ga naar je WordPress manager met behulp van je bladwijzer
+- Klik op de `Login` knop van je site
+- Maak hier een bladwijzer van <kbd><kbd>Ctrl</kbd>+<kbd>D</kbd></kbd>, geef het de naam `Dashboard`
+
+---
+
 # Themes
 
 Hiermee bepaal je de opmaak van je site
@@ -367,10 +376,23 @@ Bekijk de videoles
 ## Oefening
 
 Zet het theme van jouw site op 
-
 [Twenty Twenty-four](https://wordpress.org/themes/twentytwentyfour/)
+- Ga naar je `Dashboard` (bladwijzer)
+- Kies links `Appearance` → `Themes`
+- Activeer `Twenty Twenty-four`
+
+En bekijk je site
+
+----
+
+## Oefening
+![](images/theme-2025-dashboard-menu.png)
+- Open dit menu door je muis boven `My Blog` te houden
+- Kies het menuitem `Themes`
+- Activeer `Twenty Twenty-five`
 
 ---
+
 
 # Rondleiding door WordPress
 
