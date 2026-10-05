@@ -1,5 +1,5 @@
 import 'reveal.js/reveal.css'
-import 'reveal.js/theme/sky.css'
+import 'reveal.js/theme/black.css'
 import Reveal from 'reveal.js'
 import Markdown from 'reveal.js/plugin/markdown'
 import CopyCode from 'reveal.js-copycode';
