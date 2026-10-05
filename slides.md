@@ -56,13 +56,13 @@ kan openen met WIN+1 onder MS Windows
 
 ----
 
-## Deze presentatie
+<!-- ## Deze presentatie
 
 ![slspeek.github.io/intro-wordpress](images/qr-presentatie.png)
 
 `slspeek.github.io/intro-wordpress`
 
-----
+---- -->
 
 ## Oefening
 
