@@ -393,68 +393,86 @@ En bekijk je site
 
 ---
 
+# Dashboard
 
-# Rondleiding door WordPress
+![](images/dashboard.png)
 
-----
-
-## Dashboard
-
-Je beheert hier
-
-- Inhoud
-- Vormgeving
+Vanuit hier beheer je je site
 
 ----
 
-## Inhoud
+## Onderdelen
 
-- Posts
-- Pages
-
-----
-
-## Posts versus pages
-
-Posts zijn dynamisch
-
-Pages zijn statisch
+- Admin bar
+- Administrative widgets
+- Linker zijbalk
 
 ----
 
-## Posts
+## Admin bar
 
-### Eigenschappen:
-
-- Voeg je regelmatig toe
-- Vaak getoond met de laatste bovenaan
-- Kun je categorieën en tags aan toekennen
-
-### Voorbeelden:
-
-- Blog
-- Nieuws
-- Recepten
+Van links naar rechts:
+- Links naar `wordpress.org`
+- Wisselen tussen site en dashboard
+- Comments
+- New menu
+- Profiel
 
 ----
 
-## Pages
+## Oefening
 
-### Eigenschappen:
-
-- Tijdloos
-- Vast aantal
-
-### Voorbeelden:
-
-- Start pagina
-- Over ons
-- Contact
+Ga naar je dashboard met je bladwijzer
+- Ga met ![home icon](images/home-page-icon.png) naar je site
+- Maak een bladwijzer onder de naam `site` in het mapje `cursus` (<kbd><kbd>Ctrl</kbd>+<kbd>D</kbd></kbd>)
 
 ----
 
-## Aanmaken van posts en pages
+## Oefening
 
-- In de admin balk op "+ Nieuw"  drukken
-- In het dashboard zij menu "Posts" -> "Add New Post"
-- In het dashboard zij menu "Pages" -> "Add New Page"
+Ga terug naar het dashboard ![](images/dashboard-icon.png) (linksboven op de Admin bar)
+
+----
+
+## Oefening
+
+Houd je muis boven de + in de Admin bar, en kies `Post`. Verander de titel in `Eerste post` en klik in de body maak daar `Mijn eerste post!` van
+
+----
+
+## Resultaat
+
+![](images/eerste-post.png)
+
+----
+
+## Oefening
+
+Ga naar je site met ![home icon](images/home-page-icon.png). Je `Eerste post` is niet te vinden. 
+
+----
+
+## Oefening
+
+Klik in het dashboard in de linker zijbalk op `Posts`
+![](images/posts.png)
+
+----
+
+## Oefening
+
+Klik op de link van je post. Klik dan op de `Publish` knop rechtsboven. Klik nogmaals op `Publish` te bevestiging. Ga naar je site en overtuig jezelf ervan dat je post er staat.
+
+----
+
+## Oefening
+
+Bekijk de videoles
+
+[Getting started with the WordPress dashboard](https://learn.wordpress.org/lesson/getting-started-with-the-wordpress-dashboard/)
+
+----
+
+## Oefening
+
+Voer de zes stappen van praktische gedeelte uit.
