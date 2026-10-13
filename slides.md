@@ -436,7 +436,7 @@ Ga terug naar het dashboard ![](images/dashboard-icon.png) (linksboven op de Adm
 
 ## Oefening
 
-Houd je muis boven de + in de Admin bar, en kies `Post`. Verander de titel in `Eerste post` en klik in de body maak daar `Mijn eerste post!` van
+Houd je muis boven de + in de Admin bar, en kies `Post`. Verander de titel in `Eerste post` en klik in de body om daar `Mijn eerste post!` in te typen.
 
 ----
 
@@ -476,3 +476,111 @@ Bekijk de videoles
 ## Oefening
 
 Voer de zes stappen van praktische gedeelte uit.
+
+---
+
+# Posts vs Pages
+
+----
+
+## Pages
+
+- Contact
+- Over ons
+- Voorwaarden/Juridisch
+
+----
+
+## Posts
+
+- Nieuws
+- Recepten
+- Blog-posts
+
+----
+
+## Categories 
+
+- Een post kan in meerdere categorieën zitten
+- Er is een standaard categorie 
+- Categorieën kunnen genest zijn
+
+----
+
+### Categorie aanmaken
+
+In het dashboard op de linker zijbalk
+onder `Posts` → `Categories`
+
+----
+
+![Categorie toevoegen](images/categorie-toevoegen.png)
+
+----
+
+### Categorie slug
+
+Korte naam van de categorie zonder spaties. Met letters, cijfers liggend streepje of het minteken.
+
+----
+
+## Oefening
+
+Maak de categorie `Belangrijk` aan
+
+----
+
+## Oefening
+
+Maak `Belangrijk` de `Default post category`. Ga op de linker zijbalk onder `Settings` naar `Writing` en selecteer uit dropdown `Belangrijk`
+![](images/belangrijk-default-category.png)
+
+----
+
+## Oefening
+
+- Maak drie categorieën `Nederland`, `Utrecht` en `Noord-Holland`
+- Maak `Nederland` de parent van de andere twee
+
+----
+
+## Oefening
+
+- Maak een post voor in de categorie `Utrecht` en één voor `Noord-Holland`
+
+----
+
+## Oefening
+
+Vraag aan het `Wordpress cursus` notebook in [Gemini AI](https://gemini.google.com)
+```
+Hoe maak ik een pagina waar de bezoeker
+een categorie kan kiezen
+```
+Voer de instructies uit
+
+----
+
+## Tags
+
+- Een post kan meerdere tags hebben
+- Tags kunnen **niet** genest geworden
+
+----
+
+## Pages
+
+- Kunnen geen categorieën of tags hebben
+- Komen standaard in een menu in de header
+
+----
+
+## Oefening
+
+ Bekijk de videoles 
+
+ [Understanding the difference between WordPress posts and pages](https://learn.wordpress.org/lesson/understanding-the-difference-between-wordpress-posts-and-pages/)
+
+ En voer de vijf praktische stappen uit
+
+
