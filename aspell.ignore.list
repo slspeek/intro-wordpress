@@ -1,8 +1,10 @@
-personal_ws-1.1 nl 65 utf-8
+personal_ws-1.1 nl 80 utf-8
 AI-zoekopdrachten
 Administrative
 Advanced
 Appearance
+Blog-posts
+Categories
 Choosing
 Comments
 DirectAdmin
@@ -18,23 +20,33 @@ SLL-certificaat-succes
 SSL-Certificates
 SSL-certificaat
 SSL-certificaat-maken
+Settings
 Themes
 Twenty
 Twenty-five
 Twenty-four
+Understanding
 User
 Wordpress
+Writing
 admin
 author
+belangrijk-default-category
+between
 bladwijzerbalk
+categorie-toevoegen
+category
 chro
 dashboard-icon
 dashboard-menu
+difference
 directadmin-home
+dropdown
 eerste-post
 essentials
 evolution-homepage
 evolution-logo
+header
 header-includes
 home-page-icon
 inlogscherm-directadmin
@@ -50,8 +62,10 @@ naar-het-beheer
 nl
 org
 pagina's
+parent
 png
 posts
+slug
 started
 theme
 themes
@@ -59,6 +73,7 @@ title
 today
 vanilla-wp-site
 videoles
+vs
 widgets
 with
 wordpress
