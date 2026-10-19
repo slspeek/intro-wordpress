@@ -110,7 +110,9 @@ https://learn.wordpress.org
 ```
 onder `Websites toevoegen` toe
 
-`WordPress` onder `Gekopieerde tekst` toe
+`WordPress` onder `Gekopieerde tekst` toe en
+
+`Met gebruik van een Block Theme` onder `Gekopieerde tekst` toe
 
 ----
 
