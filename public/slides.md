@@ -158,10 +158,10 @@ Schrijf je in op [learn.wordpress.org](https://login.wordpress.org/register)
 - SSL-certificaat maken
 - Installatie
 
-Later in de cursus:
+<!-- Later in de cursus:
 
 - Back-up
-- Verwijdering
+- Verwijdering -->
 
 ---
 
