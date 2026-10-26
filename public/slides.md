@@ -248,9 +248,20 @@ Klik op `SSL-Certificates` onder `Advanced Features`
 
 ----
 
-## SSL-Certificates
+## Oefening
+
+Vraag aan [Gemini AI](https://gemini.google.com)
+```
+wat is let's encrypt
+```
+
+----
+
+### Let's encrypt inschakelen
 
 ![SSL-Certificates](images/SSL-certificaat-maken.png)
+
+Druk op `Save`
 
 ----
 
