@@ -597,3 +597,61 @@ Voer de instructies uit
  En voer de vijf praktische stappen uit
 
 
+---
+
+# Medialibrary
+
+- Plaatjes
+- Korte filmpjes
+- PDFs
+- Andere dingen die je bezoekers kunnen downloaden
+
+----
+
+## Naar de medialibrary
+
+![](images/naar-de-medialibrary.png)
+
+----
+
+# Een paar items 
+
+![](images/medialibrary.png)
+
+----
+
+# Details
+
+![](images/een-plaatje.png)
+
+----
+
+# Schalen
+
+![](images/plaatje-schalen.png)
+
+----
+
+# Geschaald
+
+![](images/plaatje-geschaald.png)
+
+----
+
+## Oefening
+
+Upload een plaatje op je site
+
+----
+
+## Oefening
+
+Schaal het plaatje naar een breedte van 1200 pixels
+
+----
+
+## Oefening
+
+Volg de videoles
+
+[Using the medialibrary](https://learn.wordpress.org/lesson/using-the-media-library-2/)
